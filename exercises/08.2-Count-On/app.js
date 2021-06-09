@@ -1,9 +1,14 @@
-let myArray = [42, true, "towel", [2,1], 'hello', 34.4, {"name": "juan"}];
+let myArray = [42, true, "towel", [2, 1], 'hello', 34.4, { "name": "juan" }, null];
 
 let hello = [];
-for(let index = 0; index < myArray.length; index++){
-    let element = myArray[index];
+for (let i = 0; i < myArray.length; i++) {
+    let item = myArray[i];
     // MAGIC HAPPENS HERE
-}
+    if (typeof (item)=== "object"){
+        hello.push(item);
+    } else {
 
+    }
+}
 console.log(hello)
+

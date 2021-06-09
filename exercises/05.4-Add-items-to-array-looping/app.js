@@ -7,5 +7,9 @@ var arr = [4,5,734,43,45];
 //         your loop content here   
 // }
 //*****************
+for (let i=0; i<=9; i++){
+    numeroAleatorio = Math.floor(Math.random() * 100);
+    arr.push(numeroAleatorio);
+}
 
 console.log(arr);
